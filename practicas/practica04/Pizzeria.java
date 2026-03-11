@@ -1,3 +1,10 @@
+/**
+ * Descripción: El programa de comando/principal tiene dos clases de las cuales una es para crear objetos de tipo cocinero y sus metodos, y la segunda para un mensaje de bienvenida
+ * Y los que hace es crear dos objetos de tipo cocinero y uno por default, se le da la bienvenida al usuario y se le pregunta que tipo de pizza hawaiana va querer y de acuerdo a eso
+ * hace una de las posibles pizzas,esto gracias a un switch case donde esta asignado por tipo de pizza un cocinero y al final se les aumenta el sueldo.
+ * Autores: Christian Ulises Soto Fuentes y Joshua Jacob Oseguera Salinas 
+ */
+
 import java.util.Scanner; 
 public class Pizzeria {
     public static void main(String[] args) {
