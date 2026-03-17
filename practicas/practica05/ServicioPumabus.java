@@ -20,6 +20,19 @@ public class ServicioPumabus {
     }
 
     //Set y Get de los atributos privados
-    
+    public void setElConductor (Conductor elConductor){
+        this.elConductor = elConductor; 
+    }
+    public Conductor getElConductor(){
+        return elConductor; 
+    }
+
+    public void setElPumabus(Pumabus elPumabus){
+        this.elPumabus = elPumabus; 
+    }
+    public Pumabus getElPumabus(){
+        return elPumabus; 
+    } 
+
 
 }

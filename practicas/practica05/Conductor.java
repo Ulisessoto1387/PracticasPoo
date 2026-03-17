@@ -1,7 +1,7 @@
 public class Conductor {
 
     //Atributos privados
-    private String nombre, 
+    private String nombre;
     private String numTrabajador; 
     private float salario; 
 
