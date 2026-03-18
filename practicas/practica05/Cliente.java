@@ -13,7 +13,7 @@ public class Cliente {
     public static double retirar(double saldo, double cantidad){    
         if (cantidad <= saldo){
         double nvosaldo = saldo - cantidad;
-        return nvo saldo;  
+        return nvosaldo;  
         } else {
         System.out.println("No te alcanza para retirar esa cantidad");
         return saldo; 
@@ -38,7 +38,7 @@ public class Cliente {
     public void setCuentaBancaria01(CuentaBancaria cuentaBancaria01){
         this.cuentaBancaria01 = cuentaBancaria01; 
     }
-    public CuentaBancaria(){
+    public CuentaBancaria getCuentaBancaria01(){
         return cuentaBancaria01; 
     }
 
