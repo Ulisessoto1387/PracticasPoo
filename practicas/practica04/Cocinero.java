@@ -28,7 +28,7 @@ public class Cocinero {
         System.out.println("Se prepara una pizza con jamón, piña, queso mozzarella, cereza ");
         for (String ing:extras) {
            if (ing != null) { 
-            System.out.print(ing + " "); // IMPRIMIMOS 'ing', NO 'extras'
+            System.out.print(ing + " "); 
         }
     }
 

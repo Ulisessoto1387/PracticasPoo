@@ -49,7 +49,7 @@ public class Gato {
 
     @Override 
     public String toString(){
-        return "El gato es de color "+color+", tiene "+edad+" años y "+numeroDeBigotes+" bigotes"
+        return "El gato es de color "+color+", tiene "+edad+" años y "+numeroDeBigotes+" bigotes";
     }
 
 }

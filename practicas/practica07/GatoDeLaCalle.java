@@ -11,6 +11,7 @@ public class GatoDeLaCalle extends Gato {
     }
 
     public void pelear(){
+        numeroDePeleas++;
         System.out.println("Esta peleando...punch pam pum...");
     }
 
@@ -25,7 +26,7 @@ public class GatoDeLaCalle extends Gato {
         return numeroDePeleas;
     }
 
-    @override
+    @Override
     public String toString(){
         return super.toString() + " y ha peleado "+numeroDePeleas+" veces";
     }

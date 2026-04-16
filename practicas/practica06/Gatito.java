@@ -49,6 +49,5 @@ public class Gatito {
     public String getEdad(){
         return edad;
     }
-
-
+    
 }
