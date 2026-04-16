@@ -5,7 +5,7 @@ public class GatoDeLaCalle extends Gato {
         super("Negro", 4, 8);
         this.numeroDePeleas = 7;
     }
-    public GatoDeLaCalle(String color, int edad, int numeroDeBigotes, int numeroDepeleas){
+    public GatoDeLaCalle(String color, int edad, int numeroDeBigotes, int numeroDePeleas){
         super(color, edad, numeroDeBigotes);
         this.numeroDePeleas = numeroDePeleas;
     }

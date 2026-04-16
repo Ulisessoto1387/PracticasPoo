@@ -15,7 +15,12 @@ public class ControlGatoCalle {
 
         GatoDeLaCalle gato02 = new GatoDeLaCalle("Manchado", 3, 8, 5);
         System.out.println("Gato por referencia: "+gato02.toString()+" ");
+        gato02.pelear();
+        System.out.println("Las veces que ha peleado: "+gato02.getNumeroDePeleas()+" ");
+        gato01.comer();
+        gato01.dormir();
+        gato01.hablar();
 
-        
+
     }
 }

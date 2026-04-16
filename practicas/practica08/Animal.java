@@ -42,7 +42,7 @@ public abstract class Animal {
         return posicion;
     }
      public void setNombre(String nombre){
-        this.nombre = niombre; 
+        this.nombre = nombre; 
     }
     public String getNombre(){
         return nombre;

@@ -1,4 +1,4 @@
-public class Liebre extends Animal{
+public class Liebre extends Animal {
     String estado; 
 
 
@@ -23,7 +23,7 @@ public class Liebre extends Animal{
         estado = "compitiendo";
         setPosicion(getPosicion()+3);
         System.out.println("Soy una liebre, me llamo:"+getNombre+" ");
-        System.ouut.println("Avanzo tres posiciones");
+        System.out.println("Avanzo tres posiciones");
         System.out.println("Posicion actual: "+getPosicion()+" ");
     }
     public void hablar(){
