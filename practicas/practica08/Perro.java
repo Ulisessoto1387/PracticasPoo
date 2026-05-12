@@ -1,7 +1,7 @@
 public class Perro extends Animal {
     private int edad; 
 
-
+    
     public Perro(){
         super(); 
         edad = 3; 

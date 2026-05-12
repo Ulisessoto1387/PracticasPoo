@@ -1,7 +1,6 @@
 public class Liebre extends Animal {
     String estado; 
 
-
     public Liebre(){
         super();
         estado = "descansando"; 
