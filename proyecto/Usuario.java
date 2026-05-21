@@ -1,4 +1,6 @@
-public class Usuario {
+import java.io.Serializable;
+public class Usuario implements Serializable {
+
     private String nombre; 
     private String apellidop;
     private String apellidom;
@@ -27,7 +29,6 @@ public class Usuario {
     public String getNombre(){
         return nombre; 
     }
-
     public void setApellidop(String apellidop){
         this.apellidop = apellidop; 
     }

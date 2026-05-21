@@ -4,15 +4,14 @@ public class NuevoRegistro {
 
     public static void registrando(Usuario usuario01){
         try{
-            
             File unArchivo = new File("resgistrando.txt");
             FileOutputStream flujoSalida = new FileOutputStream(unArchivo);
             ObjectOutputStream flujoSalidaObjetos = new ObjectOutputStream(flujoSalida);
-            Usuario usuario01 = new Usuario();
             flujoSalidaObjetos.writeObject(usuario01);
             flujoSalidaObjetos.close();
+            
         } catch(Exception e){
-        System.err.println("Error");
+        System.err.println(e.getMessage());
         }
 
 

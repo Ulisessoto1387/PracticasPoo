@@ -6,19 +6,19 @@ public class Control{
         String nombre, apellidop, apellidom, nickname, contraseña, correo, direccion, telefono;
         int edad;
 
-        Usuario usuario01 = new Usuario();
         System.out.println("dame tus datos:");
-        usuario01.getNombre = entrada.nextLine();
-        usuario01.getApellidop = entrada.nextLine();
-        usuario01.getApellidom = entrada.nextLine();
-        usuario01.getEdad = entrada.nextineInt();
+        nombre = entrada.nextLine();
+        apellidop = entrada.nextLine();
+        apellidom = entrada.nextLine();
+        edad = entrada.nextInt();
         entrada.nextLine();
-        usuario01.getNickname = entrada.nextLine();
-        usuario01.getContraseña = entrada.nextLine();
-        usuario01.getCorreo = entrada.nextLine();
-        usuario01.getTelefono = entrada.nextLine();
-        usuario01.getDireccion = entrada.nextLine();
+        nickname = entrada.nextLine();
+        contraseña = entrada.nextLine();
+        correo = entrada.nextLine();
+        telefono = entrada.nextLine();
+        direccion = entrada.nextLine();
 
+        Usuario usuario01 = new Usuario(nombre, apellidop, apellidom, edad, nickname, contraseña, correo, telefono, direccion);
         NuevoRegistro.registrando(usuario01);
     }
 }
